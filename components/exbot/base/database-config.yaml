@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: exbot-database-config
+data:
+  VECTORDB_HOST: "exbot-database"
+  VECTORDB_PORT: ""
